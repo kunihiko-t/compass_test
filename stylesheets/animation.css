@@ -84,10 +84,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   float: left;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
   opacity: 0.3;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  -webkit-transition-duration: 1.0s;
+  -moz-transition-duration: 1.0s;
+  -o-transition-duration: 1.0s;
+  transition-duration: 1.0s;
 }
 /* line 30, ../sass/animation.scss */
 #animation_container .line .animation_box:hover {
