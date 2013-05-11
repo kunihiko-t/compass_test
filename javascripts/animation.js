@@ -10,7 +10,7 @@ $(function(){
 		}
 	}
 
-	var func = function(){
+	var paintItBlue = function(){
 		var indexX = Math.floor( Math.random() * 10 );
 		var indexY = Math.floor( Math.random() * 10 );
 		var elem = jQuery(jQuery(".line")[indexY]).find("div")[indexX];
@@ -18,10 +18,10 @@ $(function(){
 		console.log(indexX);
 		console.log(indexY);
 		setTimeout(function(){
-			func();
+			paintItBlue();
 		},1000);
 	}
 	setTimeout(function(){
-		func();
+		paintItBlue();
 	},1000);
 });
