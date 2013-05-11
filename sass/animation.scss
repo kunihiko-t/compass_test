@@ -26,7 +26,7 @@ $line-height : 50px;
 			height: $box-height;
 			float: left;
 			@include opacity(0.3);
-			@include transition-duration("0.5s");
+			@include transition-duration("1.0s");
 			&:hover{
 				@include opacity(1);
 				@include scale(1.5,1.5);
