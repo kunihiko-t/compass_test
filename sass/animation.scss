@@ -1,0 +1,38 @@
+@import "compass/css3/";
+@import "compass/utilities";
+@import "compass";
+
+@import "compass/reset/";
+
+@import "compass/utilities/general/clearfix";
+
+$container-width : 500px;
+$container-height : 500px;
+$box-width : 50px;
+$box-height : 50px;
+$line-width : 500px;
+$line-height : 50px;
+#animation_container{
+	width: $container-width;
+	height: $container-height;
+	.line {
+			width: $line-width;
+			height: $line-height;
+			@include clearfix;
+			overflow: visible;
+		.animation_box{
+			background-color:red;
+			width: $box-width;
+			height: $box-height;
+			float: left;
+			@include opacity(0.3);
+			@include transition-duration("0.5s");
+			&:hover{
+				@include opacity(1);
+				@include scale(1.5,1.5);
+			}
+		}
+	}
+
+}
+
